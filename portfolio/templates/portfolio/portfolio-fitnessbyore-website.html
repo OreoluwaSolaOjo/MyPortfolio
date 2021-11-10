@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+{% block content %}
+{% load static %}
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Website by Ore</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <div class="portfolio-header">
+        <div class="text-with-vertical-line" style="margin-left: 16px; margin-top: 20px; height: 40px;">
+            <p class="portfolio-header-title">
+                Oreoluwa Sola-Ojo
+            </p>
+        </div>
+        <a class="contact-button contact-button-portfolio" style="position:absolute; right:20px; top:20px;"
+            href="mailto:oreoluwasolaojo@gmail.com?subject=Contact%20from%20oreoluwasolaojo.com">CONTACT ME</a>
+    </div>
+    <!-- Gray Section Title -->
+    <div class="section gray-section-1" style="padding-top: 20px;">
+        <a class="portfolio-back" href="{% url 'index' %}">Back</a>
+        <div class="seperator" style="margin-top: -10px; margin-bottom: 10px;">
+
+        </div>
+        <p style="margin-top: 0px; margin-bottom: 0px;">
+        <h1 class="portfolio" style="margin-bottom: 10px; font-weight: lighter;"> Portfolio</h1>
+
+        <h2 class="portfolio" style="font-weight: bold;">Website for a <br> Fitness company</h2>
+        </p>
+    </div>
+
+
+
+    <!-- CONTENT SECTION -->
+    <div class="section">
+
+        <div class="text-with-vertical-line" style="margin-left: 20px;">
+            <p>
+                I created this project for any client, who may be in need of a Website in which users can pay for
+                subscription and gain access to premium services.
+                <br><br>
+                The objective: Users can only view articles when they are logged in and have paid for premium services
+                <br><br>
+                I designed a specific administration interface
+                so he/she has a
+                possibility of updating articles that can only be accessed by premium subscription.
+                <br><br>
+                This project is a bit complex and could be implemented on a larger scale using payment platforms other
+                than stripe.
+                <strong>Note:</strong> This project is a prototype and has not being fully implemented yet
+                <br><br>
+                <u>Technologies: </u> <b>HTML, CSS, DJANGO, PYTHON, HEROKU, STRIPE AND JAVASCRIPT </b>
+                Here is a link to the project
+
+
+            </p>
+
+
+
+
+        </div>
+    </div>
+    <div style="text-align: center; margin-top: 30px;">
+        <a href="https://fitnessbyoreoluwa.herokuapp.com/">
+            <button type="button" class="btn btn-primary btn-lg" style="background-color: #4b42a6; border: none;">Go to
+                the website</button>
+        </a>
+        <br>
+
+        <br> <a href="https://github.com/OreoluwaSolaOjo/FitnessWebsitebyOre">
+            <button type="button" class="btn btn-primary btn-lg" style="background-color: #9DA642; border: none;">Check
+                out the Github repo</button>
+        </a>
+
+
+    </div>
+    <!-- FRAME SECTION -->
+    <!-- <iframe src="contact-frame.html" scrolling="no"> -->
+
+</body>
+
+</html>
+{% endblock %}

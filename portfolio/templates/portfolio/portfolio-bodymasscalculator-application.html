@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GalaxybyOSG</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <div class="portfolio-header">
+        <div class="text-with-vertical-line" style="margin-left: 16px; margin-top: 20px; height: 40px;">
+            <p class="portfolio-header-title">
+                Oreoluwa Sola-Ojo
+            </p>
+        </div>
+        <a class="contact-button contact-button-portfolio" style="position:absolute; right:20px; top:20px;"
+            href="mailto:oreoluwasolaojo@gmail.com?subject=Contact%20from%20oreoluwasolaojo.com">CONTACT ME</a>
+    </div>
+    <!-- Gray Section Title -->
+    <div class="section gray-section-1" style="padding-top: 20px;">
+        <a class="portfolio-back" href="{% url 'index' %}">Back</a>
+        <div class="seperator" style="margin-top: -10px; margin-bottom: 10px;">
+
+        </div>
+
+        <p style="margin-top: 0px; margin-bottom: 0px;">
+        <h1 class="portfolio" style="margin-bottom: 10px; font-weight: lighter;"> Portfolio</h1>
+
+        <h2 class="portfolio" style="font-weight: bold;">BMI Calculator <br> Mobile Application</h2>
+
+        </p>
+    </div>
+
+
+
+    <!-- CONTENT SECTION -->
+    <div class="section">
+
+        <div class="text-with-vertical-line" style="margin-left: 20px;">
+            <p>
+                I created this project so users can have easy access to knowing their body mass index.
+                <br><br>
+                The objective: Show users their body mass index when they put in their sex, height and weight.
+                <br><br>
+                Users can easily see if their weight is in perfect state or they are overweight or underweight.
+                <br><br>
+                This project is simple, efficient, and contains just two screens
+                <br><br>
+                <u>Technologies: </u> <b>Flutter(Dart) </b>
+                <br><br>
+            </p>
+
+
+
+
+        </div>
+    </div>
+    <div style="text-align: center; margin-top: 30px;">
+        <a href="https://drive.google.com/file/d/1T-_qjSjTxSpisVLLqyZxMrhy2VUCWOTI/view?usp=drivesdk">
+            <button type="button" class="btn btn-primary btn-lg"
+                style="background-color: #4b42a6; border: none;">Download the apk
+                file</button><br>
+
+        </a>
+
+        <br>
+        <a href="https://github.com/OreoluwaSolaOjo/bmicalculatorr">
+            <button type="button" class="btn btn-primary btn-lg" style="background-color: #9DA642; border: none;">Check
+                out the Github repo</button>
+        </a>
+
+
+    </div>
+
+
+    <!-- FRAME SECTION -->
+
+</body>
+
+</html>
