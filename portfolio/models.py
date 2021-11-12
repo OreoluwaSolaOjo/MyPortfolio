@@ -5,9 +5,9 @@ from django.db import models
 
 
 class Contact(models.Model):
-    txtName = models.TextField()
-    txtEmail = models.TextField()
-    txtPhone = models.TextField()
+    txtName = models.CharField(max_length=200)
+    txtEmail = models.EmailField(max_length=200, blank=True)
+    txtPhone = models.CharField(max_length=200)
     txtMsg = models.TextField()
 
     def __str__(self):
