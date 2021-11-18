@@ -5,6 +5,7 @@
 html *
 {
    font-family: Georgia, 'Times New Roman', Times, serif !important;
+   font-size: medium;
 }
 :root {
     --color1: #9DA642;
@@ -15,6 +16,7 @@ body {
     margin: 0px;
     font-family: Arial;
     line-height: 1.5;
+    font-size: medium;
     /* min-width: 700px; */
 
 }
