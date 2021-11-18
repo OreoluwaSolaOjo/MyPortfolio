@@ -26,7 +26,7 @@ iframe{
 
 div.cover {
     background: url(cover_overlay.png) no-repeat center/100% 100%, url(cover.jpg) no-repeat center/cover;
-    height: 360px;
+    height: 380px;
     position: relative;
 
 }
@@ -35,7 +35,7 @@ img.cover_profile {
     height: 150px;
     position: relative;
     left: 50%;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: -75px;
     margin-bottom: 0px;
 }
